@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B9C0A67CC6BE92E355F2942 /* Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13B75DB80398AD4B31751F /* Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework */; };
 		251EFF2B249034C500DEDB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF2A249034C500DEDB6A /* AppDelegate.swift */; };
 		251EFF2D249034C500DEDB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF2C249034C500DEDB6A /* SceneDelegate.swift */; };
 		251EFF2F249034C500DEDB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF2E249034C500DEDB6A /* ViewController.swift */; };
@@ -16,6 +17,29 @@
 		251EFF3A249034CF00DEDB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF38249034CF00DEDB6A /* LaunchScreen.storyboard */; };
 		251EFF45249034CF00DEDB6A /* UP_Store_EntregasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF44249034CF00DEDB6A /* UP_Store_EntregasTests.swift */; };
 		251EFF50249034D000DEDB6A /* UP_Store_EntregasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF4F249034D000DEDB6A /* UP_Store_EntregasUITests.swift */; };
+		251EFF61249035A100DEDB6A /* Bebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF60249035A100DEDB6A /* Bebidas.swift */; };
+		251EFF63249035D800DEDB6A /* BebidasAlcoholicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF62249035D800DEDB6A /* BebidasAlcoholicas.swift */; };
+		251EFF65249035F200DEDB6A /* Cervezas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF64249035F200DEDB6A /* Cervezas.swift */; };
+		251EFF672490360400DEDB6A /* Cigarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF662490360400DEDB6A /* Cigarros.swift */; };
+		251EFF692490362300DEDB6A /* Snacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF682490362300DEDB6A /* Snacks.swift */; };
+		251EFF6B2490363900DEDB6A /* Bakery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF6A2490363900DEDB6A /* Bakery.swift */; };
+		251EFF6D2490368C00DEDB6A /* Abarrotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF6C2490368C00DEDB6A /* Abarrotes.swift */; };
+		251EFF6F249036BB00DEDB6A /* VinosYLicores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF6E249036BB00DEDB6A /* VinosYLicores.swift */; };
+		251EFF7824903BC700DEDB6A /* VinosyLicores.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7024903BC500DEDB6A /* VinosyLicores.txt */; };
+		251EFF7924903BC700DEDB6A /* Bakery.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7124903BC600DEDB6A /* Bakery.txt */; };
+		251EFF7A24903BC700DEDB6A /* Cigarros.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7224903BC600DEDB6A /* Cigarros.txt */; };
+		251EFF7B24903BC700DEDB6A /* Bebidas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7324903BC600DEDB6A /* Bebidas.txt */; };
+		251EFF7C24903BC700DEDB6A /* Cerveza.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7424903BC600DEDB6A /* Cerveza.txt */; };
+		251EFF7D24903BC700DEDB6A /* Abarrotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7524903BC700DEDB6A /* Abarrotes.txt */; };
+		251EFF7E24903BC700DEDB6A /* BebidasAlcoholicas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7624903BC700DEDB6A /* BebidasAlcoholicas.txt */; };
+		251EFF7F24903BC700DEDB6A /* Snacks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 251EFF7724903BC700DEDB6A /* Snacks.txt */; };
+		251EFF8224914C5500DEDB6A /* Carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF8124914C5500DEDB6A /* Carrito.swift */; };
+		251EFF8424914C9A00DEDB6A /* ClientesDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF8324914C9A00DEDB6A /* ClientesDB.swift */; };
+		251EFF8824914CF600DEDB6A /* CheckVenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF8724914CF600DEDB6A /* CheckVenta.swift */; };
+		251EFF8A24914DDF00DEDB6A /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF8924914DDF00DEDB6A /* Lista.swift */; };
+		251EFF8C24914FDE00DEDB6A /* AltaCliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF8B24914FDE00DEDB6A /* AltaCliente.swift */; };
+		3184A76608984A79E3A3766C /* Pods_UP_Store_EntregasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692253883390A6B94BAA47E5 /* Pods_UP_Store_EntregasTests.framework */; };
+		60DA5B81A0BB3DACED05B0F4 /* Pods_UP_Store_Entregas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E5A07163711D8085C7242E /* Pods_UP_Store_Entregas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0913CA2925C8E3329A78A096 /* Pods-UP Store Entregas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas.release.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas/Pods-UP Store Entregas.release.xcconfig"; sourceTree = "<group>"; };
+		18457B1C32CD08241EF31E58 /* Pods-UP Store EntregasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store EntregasTests.debug.xcconfig"; path = "Target Support Files/Pods-UP Store EntregasTests/Pods-UP Store EntregasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		251EFF27249034C500DEDB6A /* UP Store Entregas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UP Store Entregas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		251EFF2A249034C500DEDB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		251EFF2C249034C500DEDB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +77,34 @@
 		251EFF4B249034D000DEDB6A /* UP Store EntregasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UP Store EntregasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		251EFF4F249034D000DEDB6A /* UP_Store_EntregasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UP_Store_EntregasUITests.swift; sourceTree = "<group>"; };
 		251EFF51249034D000DEDB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251EFF60249035A100DEDB6A /* Bebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebidas.swift; sourceTree = "<group>"; };
+		251EFF62249035D800DEDB6A /* BebidasAlcoholicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidasAlcoholicas.swift; sourceTree = "<group>"; };
+		251EFF64249035F200DEDB6A /* Cervezas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cervezas.swift; sourceTree = "<group>"; };
+		251EFF662490360400DEDB6A /* Cigarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cigarros.swift; sourceTree = "<group>"; };
+		251EFF682490362300DEDB6A /* Snacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snacks.swift; sourceTree = "<group>"; };
+		251EFF6A2490363900DEDB6A /* Bakery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bakery.swift; sourceTree = "<group>"; };
+		251EFF6C2490368C00DEDB6A /* Abarrotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abarrotes.swift; sourceTree = "<group>"; };
+		251EFF6E249036BB00DEDB6A /* VinosYLicores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinosYLicores.swift; sourceTree = "<group>"; };
+		251EFF7024903BC500DEDB6A /* VinosyLicores.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VinosyLicores.txt; sourceTree = "<group>"; };
+		251EFF7124903BC600DEDB6A /* Bakery.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bakery.txt; sourceTree = "<group>"; };
+		251EFF7224903BC600DEDB6A /* Cigarros.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cigarros.txt; sourceTree = "<group>"; };
+		251EFF7324903BC600DEDB6A /* Bebidas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bebidas.txt; sourceTree = "<group>"; };
+		251EFF7424903BC600DEDB6A /* Cerveza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cerveza.txt; sourceTree = "<group>"; };
+		251EFF7524903BC700DEDB6A /* Abarrotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Abarrotes.txt; sourceTree = "<group>"; };
+		251EFF7624903BC700DEDB6A /* BebidasAlcoholicas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BebidasAlcoholicas.txt; sourceTree = "<group>"; };
+		251EFF7724903BC700DEDB6A /* Snacks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snacks.txt; sourceTree = "<group>"; };
+		251EFF8124914C5500DEDB6A /* Carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrito.swift; sourceTree = "<group>"; };
+		251EFF8324914C9A00DEDB6A /* ClientesDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientesDB.swift; sourceTree = "<group>"; };
+		251EFF8724914CF600DEDB6A /* CheckVenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVenta.swift; sourceTree = "<group>"; };
+		251EFF8924914DDF00DEDB6A /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
+		251EFF8B24914FDE00DEDB6A /* AltaCliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltaCliente.swift; sourceTree = "<group>"; };
+		51E5A07163711D8085C7242E /* Pods_UP_Store_Entregas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_Store_Entregas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		692253883390A6B94BAA47E5 /* Pods_UP_Store_EntregasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_Store_EntregasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3E073DA9ACBF3CDE58D680 /* Pods-UP Store Entregas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas.debug.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas/Pods-UP Store Entregas.debug.xcconfig"; sourceTree = "<group>"; };
+		802506511B1CA1417CA25E2A /* Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3846DECC551273F5AEBF5FC /* Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC24DBA9FF8D737160DBCF9 /* Pods-UP Store EntregasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store EntregasTests.release.xcconfig"; path = "Target Support Files/Pods-UP Store EntregasTests/Pods-UP Store EntregasTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC13B75DB80398AD4B31751F /* Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DA5B81A0BB3DACED05B0F4 /* Pods_UP_Store_Entregas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3184A76608984A79E3A3766C /* Pods_UP_Store_EntregasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9C0A67CC6BE92E355F2942 /* Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +142,8 @@
 				251EFF43249034CF00DEDB6A /* UP Store EntregasTests */,
 				251EFF4E249034D000DEDB6A /* UP Store EntregasUITests */,
 				251EFF28249034C500DEDB6A /* Products */,
+				9A09AC777BD200C415238753 /* Pods */,
+				CB4E3DD9885F2D2683D9295E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +164,13 @@
 				251EFF2C249034C500DEDB6A /* SceneDelegate.swift */,
 				251EFF2E249034C500DEDB6A /* ViewController.swift */,
 				251EFF30249034C500DEDB6A /* Main.storyboard */,
-				251EFF36249034CF00DEDB6A /* Assets.xcassets */,
 				251EFF38249034CF00DEDB6A /* LaunchScreen.storyboard */,
 				251EFF3B249034CF00DEDB6A /* Info.plist */,
+				251EFF8024914C0700DEDB6A /* PreVenta */,
+				251EFF5D249034F600DEDB6A /* Categorias */,
+				251EFF5F2490352A00DEDB6A /* ListasDeArticulos */,
 				251EFF33249034C500DEDB6A /* UP_Store_Entregas.xcdatamodeld */,
+				251EFF36249034CF00DEDB6A /* Assets.xcassets */,
 			);
 			path = "UP Store Entregas";
 			sourceTree = "<group>";
@@ -131,6 +193,72 @@
 			path = "UP Store EntregasUITests";
 			sourceTree = "<group>";
 		};
+		251EFF5D249034F600DEDB6A /* Categorias */ = {
+			isa = PBXGroup;
+			children = (
+				251EFF60249035A100DEDB6A /* Bebidas.swift */,
+				251EFF62249035D800DEDB6A /* BebidasAlcoholicas.swift */,
+				251EFF64249035F200DEDB6A /* Cervezas.swift */,
+				251EFF662490360400DEDB6A /* Cigarros.swift */,
+				251EFF6E249036BB00DEDB6A /* VinosYLicores.swift */,
+				251EFF682490362300DEDB6A /* Snacks.swift */,
+				251EFF6A2490363900DEDB6A /* Bakery.swift */,
+				251EFF6C2490368C00DEDB6A /* Abarrotes.swift */,
+				251EFF8924914DDF00DEDB6A /* Lista.swift */,
+			);
+			path = Categorias;
+			sourceTree = "<group>";
+		};
+		251EFF5F2490352A00DEDB6A /* ListasDeArticulos */ = {
+			isa = PBXGroup;
+			children = (
+				251EFF7524903BC700DEDB6A /* Abarrotes.txt */,
+				251EFF7124903BC600DEDB6A /* Bakery.txt */,
+				251EFF7324903BC600DEDB6A /* Bebidas.txt */,
+				251EFF7624903BC700DEDB6A /* BebidasAlcoholicas.txt */,
+				251EFF7424903BC600DEDB6A /* Cerveza.txt */,
+				251EFF7224903BC600DEDB6A /* Cigarros.txt */,
+				251EFF7724903BC700DEDB6A /* Snacks.txt */,
+				251EFF7024903BC500DEDB6A /* VinosyLicores.txt */,
+			);
+			path = ListasDeArticulos;
+			sourceTree = "<group>";
+		};
+		251EFF8024914C0700DEDB6A /* PreVenta */ = {
+			isa = PBXGroup;
+			children = (
+				251EFF8124914C5500DEDB6A /* Carrito.swift */,
+				251EFF8324914C9A00DEDB6A /* ClientesDB.swift */,
+				251EFF8724914CF600DEDB6A /* CheckVenta.swift */,
+				251EFF8B24914FDE00DEDB6A /* AltaCliente.swift */,
+			);
+			path = PreVenta;
+			sourceTree = "<group>";
+		};
+		9A09AC777BD200C415238753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C3E073DA9ACBF3CDE58D680 /* Pods-UP Store Entregas.debug.xcconfig */,
+				0913CA2925C8E3329A78A096 /* Pods-UP Store Entregas.release.xcconfig */,
+				A3846DECC551273F5AEBF5FC /* Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig */,
+				802506511B1CA1417CA25E2A /* Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig */,
+				18457B1C32CD08241EF31E58 /* Pods-UP Store EntregasTests.debug.xcconfig */,
+				DEC24DBA9FF8D737160DBCF9 /* Pods-UP Store EntregasTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB4E3DD9885F2D2683D9295E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E5A07163711D8085C7242E /* Pods_UP_Store_Entregas.framework */,
+				FC13B75DB80398AD4B31751F /* Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework */,
+				692253883390A6B94BAA47E5 /* Pods_UP_Store_EntregasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251EFF54249034D000DEDB6A /* Build configuration list for PBXNativeTarget "UP Store Entregas" */;
 			buildPhases = (
+				E1C93C5717C56EACD92F0764 /* [CP] Check Pods Manifest.lock */,
 				251EFF23249034C500DEDB6A /* Sources */,
 				251EFF24249034C500DEDB6A /* Frameworks */,
 				251EFF25249034C500DEDB6A /* Resources */,
+				BB54B2CB289D50B78D5BC78D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251EFF57249034D000DEDB6A /* Build configuration list for PBXNativeTarget "UP Store EntregasTests" */;
 			buildPhases = (
+				68681FA217956C2DAADBD62D /* [CP] Check Pods Manifest.lock */,
 				251EFF3C249034CF00DEDB6A /* Sources */,
 				251EFF3D249034CF00DEDB6A /* Frameworks */,
 				251EFF3E249034CF00DEDB6A /* Resources */,
@@ -173,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251EFF5A249034D000DEDB6A /* Build configuration list for PBXNativeTarget "UP Store EntregasUITests" */;
 			buildPhases = (
+				0390BEE932C1EC39E219A5B3 /* [CP] Check Pods Manifest.lock */,
 				251EFF47249034D000DEDB6A /* Sources */,
 				251EFF48249034D000DEDB6A /* Frameworks */,
 				251EFF49249034D000DEDB6A /* Resources */,
+				359FA53691870E2FA536CA0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,7 +327,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = ASNK;
 				TargetAttributes = {
 					251EFF26249034C500DEDB6A = {
@@ -235,7 +368,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251EFF7824903BC700DEDB6A /* VinosyLicores.txt in Resources */,
+				251EFF7C24903BC700DEDB6A /* Cerveza.txt in Resources */,
+				251EFF7E24903BC700DEDB6A /* BebidasAlcoholicas.txt in Resources */,
 				251EFF3A249034CF00DEDB6A /* LaunchScreen.storyboard in Resources */,
+				251EFF7F24903BC700DEDB6A /* Snacks.txt in Resources */,
+				251EFF7B24903BC700DEDB6A /* Bebidas.txt in Resources */,
+				251EFF7D24903BC700DEDB6A /* Abarrotes.txt in Resources */,
+				251EFF7A24903BC700DEDB6A /* Cigarros.txt in Resources */,
+				251EFF7924903BC700DEDB6A /* Bakery.txt in Resources */,
 				251EFF37249034CF00DEDB6A /* Assets.xcassets in Resources */,
 				251EFF32249034C500DEDB6A /* Main.storyboard in Resources */,
 			);
@@ -257,6 +398,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0390BEE932C1EC39E219A5B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UP Store Entregas-UP Store EntregasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		359FA53691870E2FA536CA0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68681FA217956C2DAADBD62D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UP Store EntregasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB54B2CB289D50B78D5BC78D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UP Store Entregas/Pods-UP Store Entregas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UP Store Entregas/Pods-UP Store Entregas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UP Store Entregas/Pods-UP Store Entregas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C93C5717C56EACD92F0764 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UP Store Entregas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		251EFF23249034C500DEDB6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,7 +509,20 @@
 				251EFF2F249034C500DEDB6A /* ViewController.swift in Sources */,
 				251EFF2B249034C500DEDB6A /* AppDelegate.swift in Sources */,
 				251EFF2D249034C500DEDB6A /* SceneDelegate.swift in Sources */,
+				251EFF6F249036BB00DEDB6A /* VinosYLicores.swift in Sources */,
+				251EFF8A24914DDF00DEDB6A /* Lista.swift in Sources */,
+				251EFF8424914C9A00DEDB6A /* ClientesDB.swift in Sources */,
+				251EFF6B2490363900DEDB6A /* Bakery.swift in Sources */,
+				251EFF672490360400DEDB6A /* Cigarros.swift in Sources */,
+				251EFF8824914CF600DEDB6A /* CheckVenta.swift in Sources */,
+				251EFF692490362300DEDB6A /* Snacks.swift in Sources */,
+				251EFF63249035D800DEDB6A /* BebidasAlcoholicas.swift in Sources */,
 				251EFF35249034C500DEDB6A /* UP_Store_Entregas.xcdatamodeld in Sources */,
+				251EFF8224914C5500DEDB6A /* Carrito.swift in Sources */,
+				251EFF61249035A100DEDB6A /* Bebidas.swift in Sources */,
+				251EFF8C24914FDE00DEDB6A /* AltaCliente.swift in Sources */,
+				251EFF6D2490368C00DEDB6A /* Abarrotes.swift in Sources */,
+				251EFF65249035F200DEDB6A /* Cervezas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +603,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -370,7 +628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,6 +664,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -424,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,11 +695,14 @@
 		};
 		251EFF55249034D000DEDB6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3E073DA9ACBF3CDE58D680 /* Pods-UP Store Entregas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P47SQ6MP59;
+				DEVELOPMENT_TEAM = 696B28SKMT;
 				INFOPLIST_FILE = "UP Store Entregas/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,17 +710,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UPStore.aDomicilio.UP-Store-Entregas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		251EFF56249034D000DEDB6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0913CA2925C8E3329A78A096 /* Pods-UP Store Entregas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P47SQ6MP59;
+				DEVELOPMENT_TEAM = 696B28SKMT;
 				INFOPLIST_FILE = "UP Store Entregas/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,12 +731,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UPStore.aDomicilio.UP-Store-Entregas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		251EFF58249034D000DEDB6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18457B1C32CD08241EF31E58 /* Pods-UP Store EntregasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +760,7 @@
 		};
 		251EFF59249034D000DEDB6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC24DBA9FF8D737160DBCF9 /* Pods-UP Store EntregasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +783,7 @@
 		};
 		251EFF5B249034D000DEDB6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3846DECC551273F5AEBF5FC /* Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +804,7 @@
 		};
 		251EFF5C249034D000DEDB6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802506511B1CA1417CA25E2A /* Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
