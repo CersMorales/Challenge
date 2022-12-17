@@ -9,7 +9,9 @@
 import UIKit
 import CoreData
 class AltaCliente: UIViewController {
-//Elementos de interface
+//Conexion con structur
+    private var usuarioRandom : UsuarioRandom?
+    //Elementos de interface
     @IBOutlet weak var nombre: UITextField!
     @IBOutlet weak var apellidoPaterno: UITextField!
     @IBOutlet weak var apellidoMaterno: UITextField!
@@ -19,16 +21,47 @@ class AltaCliente: UIViewController {
     @IBOutlet weak var ciudad: UITextField!
     @IBOutlet weak var numeroContacto: UITextField!
     @IBOutlet weak var referencia: UITextField!
-//Contexto
+    //Variables
+  //  var userRandomManager = userManager()
+    //Contexto
     func conexion ()-> NSManagedObjectContext{
         let delegate = UIApplication.shared.delegate as! AppDelegate
         return delegate.persistentContainer.viewContext
     }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+//Recoger datos de la api
+      //  userRandomManager.verUser()
+       
     }
+    
+    @IBAction func BotonUsuarioSorpresa(_ sender: Any) {
+        loadData()
+        let nombreUR = usuarioRandom?.first
+        let apellidoUR = usuarioRandom?.last
+        let calleUR = usuarioRandom?.name
+        let numeroUR = usuarioRandom?.number
+        nombre.text = nombreUR
+        apellidoPaterno.text = apellidoUR
+        calle.text = calleUR
+    }
+    private func loadData () {
+        guard let url = URL(string: "https://randomuser.me/api/") else {
+            return
+        }
+        URLSession.shared.dataTask(with: url) {data, response, error in
+            guard let data = data else {return}
+            if let decodeData = try? JSONDecoder().decode(UsuarioRandom.self, from: data){
+                DispatchQueue.main.async {
+                    self.usuarioRandom = decodeData
+                    
+                }
+            }
+        }.resume()
+    }
+ 
 //Funciones
     func AvisoGuardado () {
         let alerta = UIAlertController(title: "UP! Store", message: "Se guardo el usuario", preferredStyle: .alert)
@@ -73,9 +106,27 @@ class AltaCliente: UIViewController {
             let accion = UIAlertAction(title: "Entendido", style: .default, handler: nil)
             alerta.addAction(accion)
             present(alerta, animated: true, completion: nil)
+
         }
     }
     @IBAction func Back(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
+    
 }
+//extension AltaCliente: DelegadoRandomUser {}
+    //func showUserRandom(lista: [userRandom]) {}
+//Extructura de JSON
+    struct UsuarioRandom : Decodable{
+        let title : String
+        let first : String
+        let last : String
+        let name : String
+        let number : Int
+        let city : String
+        let state : String
+        let phone : Int
+        let email : String
+        
+    }
+

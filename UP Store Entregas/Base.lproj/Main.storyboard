@@ -1142,6 +1142,17 @@
                                     <action selector="Back:" destination="eTh-qC-cPQ" eventType="touchUpInside" id="euP-su-ret"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Et6-CG-2kO">
+                                <rect key="frame" x="90" y="420" width="34" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=".">
+                                    <backgroundConfiguration key="background" image="RandomBox-05"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="BotonUsuarioSorpresa:" destination="eTh-qC-cPQ" eventType="touchUpInside" id="vQD-AN-GcP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZEH-PF-lhg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1161,7 +1172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQ0-RQ-YXl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2104.8000000000002" y="108.39580209895054"/>
+            <point key="canvasLocation" x="2104.6153846153848" y="108.05687203791469"/>
         </scene>
         <!--Check Venta-->
         <scene sceneID="1Ez-aJ-klw">
@@ -1305,6 +1316,7 @@
         <image name="CartIcon" width="333.33334350585938" height="333.33334350585938"/>
         <image name="Cervezas" width="333.33334350585938" height="333.33334350585938"/>
         <image name="Cigarros" width="333.33334350585938" height="333.33334350585938"/>
+        <image name="RandomBox-05" width="213.33332824707031" height="236"/>
         <image name="Snacks" width="333.33334350585938" height="333.33334350585938"/>
         <image name="Vinos&amp;Licores" width="333.33334350585938" height="333.33334350585938"/>
         <image name="cart" catalog="system" width="128" height="102"/>

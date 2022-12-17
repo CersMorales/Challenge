@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,6 +40,8 @@
 		251EFF8C24914FDE00DEDB6A /* AltaCliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251EFF8B24914FDE00DEDB6A /* AltaCliente.swift */; };
 		3184A76608984A79E3A3766C /* Pods_UP_Store_EntregasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692253883390A6B94BAA47E5 /* Pods_UP_Store_EntregasTests.framework */; };
 		60DA5B81A0BB3DACED05B0F4 /* Pods_UP_Store_Entregas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E5A07163711D8085C7242E /* Pods_UP_Store_Entregas.framework */; };
+		94F41583294D2653000EFF0D /* ManagerRandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F41582294D2653000EFF0D /* ManagerRandomUser.swift */; };
+		94F41585294D2784000EFF0D /*  DatosUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F41584294D2784000EFF0D /*  DatosUsuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,8 @@
 		692253883390A6B94BAA47E5 /* Pods_UP_Store_EntregasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_Store_EntregasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3E073DA9ACBF3CDE58D680 /* Pods-UP Store Entregas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas.debug.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas/Pods-UP Store Entregas.debug.xcconfig"; sourceTree = "<group>"; };
 		802506511B1CA1417CA25E2A /* Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94F41582294D2653000EFF0D /* ManagerRandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerRandomUser.swift; sourceTree = "<group>"; };
+		94F41584294D2784000EFF0D /*  DatosUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DatosUsuario.swift"; sourceTree = "<group>"; };
 		A3846DECC551273F5AEBF5FC /* Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig"; path = "Target Support Files/Pods-UP Store Entregas-UP Store EntregasUITests/Pods-UP Store Entregas-UP Store EntregasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEC24DBA9FF8D737160DBCF9 /* Pods-UP Store EntregasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP Store EntregasTests.release.xcconfig"; path = "Target Support Files/Pods-UP Store EntregasTests/Pods-UP Store EntregasTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC13B75DB80398AD4B31751F /* Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_Store_Entregas_UP_Store_EntregasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +167,9 @@
 				251EFF2A249034C500DEDB6A /* AppDelegate.swift */,
 				251EFF2C249034C500DEDB6A /* SceneDelegate.swift */,
 				251EFF2E249034C500DEDB6A /* ViewController.swift */,
+				94F41582294D2653000EFF0D /* ManagerRandomUser.swift */,
+				94F41584294D2784000EFF0D /*  DatosUsuario.swift */,
+				251EFF8B24914FDE00DEDB6A /* AltaCliente.swift */,
 				251EFF30249034C500DEDB6A /* Main.storyboard */,
 				251EFF38249034CF00DEDB6A /* LaunchScreen.storyboard */,
 				251EFF3B249034CF00DEDB6A /* Info.plist */,
@@ -230,7 +237,6 @@
 				251EFF8124914C5500DEDB6A /* Carrito.swift */,
 				251EFF8324914C9A00DEDB6A /* ClientesDB.swift */,
 				251EFF8724914CF600DEDB6A /* CheckVenta.swift */,
-				251EFF8B24914FDE00DEDB6A /* AltaCliente.swift */,
 			);
 			path = PreVenta;
 			sourceTree = "<group>";
@@ -245,7 +251,6 @@
 				18457B1C32CD08241EF31E58 /* Pods-UP Store EntregasTests.debug.xcconfig */,
 				DEC24DBA9FF8D737160DBCF9 /* Pods-UP Store EntregasTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -516,9 +521,11 @@
 				251EFF672490360400DEDB6A /* Cigarros.swift in Sources */,
 				251EFF8824914CF600DEDB6A /* CheckVenta.swift in Sources */,
 				251EFF692490362300DEDB6A /* Snacks.swift in Sources */,
+				94F41585294D2784000EFF0D /*  DatosUsuario.swift in Sources */,
 				251EFF63249035D800DEDB6A /* BebidasAlcoholicas.swift in Sources */,
 				251EFF35249034C500DEDB6A /* UP_Store_Entregas.xcdatamodeld in Sources */,
 				251EFF8224914C5500DEDB6A /* Carrito.swift in Sources */,
+				94F41583294D2653000EFF0D /* ManagerRandomUser.swift in Sources */,
 				251EFF61249035A100DEDB6A /* Bebidas.swift in Sources */,
 				251EFF8C24914FDE00DEDB6A /* AltaCliente.swift in Sources */,
 				251EFF6D2490368C00DEDB6A /* Abarrotes.swift in Sources */,
